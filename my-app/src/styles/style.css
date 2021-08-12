@@ -1,0 +1,29 @@
+#root nav ul {
+  display: flex;
+  flex-direction: row;
+}
+#root nav ul li {
+    display: block;
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #eee;
+    transform: scale(1);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+#root nav ul li:hover {
+    background-color: #cce;
+    transform: scale(1.05);
+}
+
+#root .speach-list{
+    display: flex;
+    flex-flow: wrap;
+}
+#root .speach-list .speach{
+    margin: 15px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    padding: 15px;
+}
